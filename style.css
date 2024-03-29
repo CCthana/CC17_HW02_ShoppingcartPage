@@ -1,0 +1,387 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: kanit;
+}
+
+body {
+    background-color: #f4f4f5;
+    width: 100vw;
+ }
+
+ header {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ 
+/* lnav */
+
+ .lBox {
+    width: 282px;
+    display: flex;
+    align-items: center;
+ }
+
+ .logobox img {
+    width: 190px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .logobox img:hover {
+    cursor: pointer;
+ }
+
+/* midnav */
+ .mBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .mBox .aboutus, .passcard, .profile {
+    
+    margin: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(33, 46, 75);
+ }
+
+ .aboutus, .passcard, .profile:hover {
+    cursor: pointer;
+ }
+
+
+ /* rnav */
+ .rBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+ }
+
+ .rBox img {
+    width: 24px;
+    margin: 8px;
+ }
+
+ .rBox img:hover {
+    cursor: pointer;
+ }
+
+
+ .noti {
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    font-size: 8px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+ .rBox .login, .register {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(33, 46, 75);
+ }
+
+ .rBox .linebreak {
+    width: 1px;
+    height: 40px;
+    border: 1px solid rgb(228, 228, 228);
+ }
+
+
+ .login, .register:hover {
+    cursor: pointer;
+ }
+
+ /* content */
+
+ .detail {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: relative;
+    
+   
+ }
+
+ .container {
+    width: 80%;
+    flex-direction: row;
+    display: flex;
+    letter-spacing: 1px;
+    gap: 20px;
+ }
+ 
+
+ .mycart {
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: start ;
+    font-size: 20px;
+    color: rgb(33, 46, 75);
+    
+ }
+
+ /* itembox */
+
+ .itembox {
+    width: 50%;
+    
+ }
+
+ .itembox1, .itembox2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+ }
+
+ 
+ .bin {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+ }
+
+ .gDoc {
+    height: 200px;
+    margin: 30px;
+ }
+
+ .itemname1 {
+    font-family: ubuntu;
+    font-weight: 500;
+    font-size: 30px;
+    color: #212E4B;
+    letter-spacing: -1px;
+    flex-direction: column; 
+ }
+
+
+ .itemname {
+    position: relative;
+ }
+
+ .select {
+    
+    padding: 8px 16px;
+
+    font-family: kanit;
+    font-weight: 500;
+    color: #9E9E9E;
+    background-color: white;
+    border: 1px solid rgba(153, 153, 153, 0.336);
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    left: 90px;
+    margin-bottom: 30px;
+ }
+
+ .dot {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 12px;
+    position: absolute;
+    top: 70px;
+   
+ }
+
+ 
+ .dot1, .dot2, .dot3, .dot4 {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #E7F3FE;
+ }
+
+ .dot1:hover {
+    cursor: pointer;
+    background-color: #00DBB6; 
+ }
+
+ .dot2:hover {
+    cursor: pointer;
+    background-color: #00DBB6; 
+ }
+
+ .dot3:hover {
+    cursor: pointer;
+    background-color: #00DBB6; 
+ }
+
+ .dot4:hover {
+    cursor: pointer;
+    background-color: #00DBB6; 
+ }
+
+ .priceL {
+    font-family: kanit;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #415984;
+ }
+
+
+ .itembox2 select {
+    margin-left: 30px;
+ }
+
+ .bin:hover {
+   cursor: pointer;
+ }
+
+
+/* checkout box */
+
+.checkout {
+    max-width: 600px;
+    width: 50%;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.orderinfo  {
+    margin: 20px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 30px;
+    align-items: start;
+    padding: 30px;
+ }
+
+ .orderinfo h1 {
+    font-size: 28px;
+    color: #212E4B;
+ }
+ 
+ .subtotal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+ }
+
+
+ .subtotal p {
+    font-family: kanit;
+    font-weight: 400; 
+    font-size: 18px;
+    color: #7A89A6;
+ }
+
+
+ .coupon {
+    height: 100px;
+    margin-top: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+ }
+
+ .coupon input {
+    width: 300px;
+    height: 48px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    font-size: 14px;
+    padding: 16px;
+ }
+
+ .coupon button {
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1.5px solid #59C4AE;
+    color: #59C4AE;
+    outline: none;
+    border-radius: 16px;
+ }
+ 
+ .total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+ }
+
+ .total p {
+    font-family: kanit;
+    font-weight: 400; 
+    font-size: 18px;
+    color: #212E4B;
+ }
+ 
+
+ .total h1 {
+    color: #59C4AE;
+    font-size: 36px;
+    font-weight: 500;
+ }
+
+.checkoutbutton {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkoutbutton button {
+    width: 90%;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #00DBB6 ;
+    border: none;
+    box-shadow: 0px 6px 20px #adf0dc;
+    font-size: 20px;
+    color: #212E4B;
+    font-weight: 500;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.coupon img:hover {
+    cursor: pointer;
+}
+ 
+
+ 
+
+
