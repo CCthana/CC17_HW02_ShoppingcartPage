@@ -69,7 +69,7 @@ body {
  }
 
  .rBox img {
-    width: 24px;
+    width: 30px;
     margin: 8px;
  }
 
@@ -80,11 +80,11 @@ body {
 
  .noti {
     position: absolute;
-    top: 25px;
-    left: 60px;
-    font-size: 8px;
-    width: 10px;
-    height: 10px;
+    top: 22px;
+    left: 72px;
+    font-size: 8.5px;
+    width: 11px;
+    height: 11px;
     background-color: red;
     border-radius: 50%;
     color: white;
